@@ -29,6 +29,9 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    ENV.APP.SENTRY_AUTH_TOKEN = '518dbf5139034033a4a47802c6f6eb1d2fa0e9fe17094caea7eaf82ec15c742e';
+    ENV.APP.SENTRY_HOST = 'http://localhost:8080/api/0/';
+    ENV.APP.SENTRY_ORG_SLUG = 'sentry';
   }
 
   if (environment === 'test') {
